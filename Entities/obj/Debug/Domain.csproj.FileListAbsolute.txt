@@ -1,0 +1,14 @@
+C:\Users\mario\OneDrive\Escritorio\DDD\Entities\bin\Debug\Domain.dll.config
+C:\Users\mario\OneDrive\Escritorio\DDD\Entities\bin\Debug\Domain.dll
+C:\Users\mario\OneDrive\Escritorio\DDD\Entities\bin\Debug\Domain.pdb
+C:\Users\mario\OneDrive\Escritorio\DDD\Entities\bin\Debug\AutoMapper.dll
+C:\Users\mario\OneDrive\Escritorio\DDD\Entities\bin\Debug\EntityFramework.dll
+C:\Users\mario\OneDrive\Escritorio\DDD\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mario\OneDrive\Escritorio\DDD\Entities\bin\Debug\AutoMapper.xml
+C:\Users\mario\OneDrive\Escritorio\DDD\Entities\bin\Debug\EntityFramework.xml
+C:\Users\mario\OneDrive\Escritorio\DDD\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mario\OneDrive\Escritorio\DDD\Entities\obj\Debug\Domain.csproj.AssemblyReference.cache
+C:\Users\mario\OneDrive\Escritorio\DDD\Entities\obj\Debug\Domain.csproj.CoreCompileInputs.cache
+C:\Users\mario\OneDrive\Escritorio\DDD\Entities\obj\Debug\Domain.csproj.CopyComplete
+C:\Users\mario\OneDrive\Escritorio\DDD\Entities\obj\Debug\Domain.dll
+C:\Users\mario\OneDrive\Escritorio\DDD\Entities\obj\Debug\Domain.pdb
