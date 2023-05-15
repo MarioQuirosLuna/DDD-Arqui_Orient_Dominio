@@ -6,5 +6,6 @@ namespace Repositories.Repositories
 {
     public interface IPersonRepository : IGenericRepository<Person>
     {
+        Task<Person> GetOldestPerson();
     }
 }

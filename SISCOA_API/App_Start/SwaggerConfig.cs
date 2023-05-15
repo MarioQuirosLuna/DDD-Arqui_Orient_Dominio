@@ -48,7 +48,7 @@ namespace SISCOA_API
                         // hold additional metadata for an API. Version and title are required but you can also provide
                         // additional fields by chaining methods off SingleApiVersion.
                         //
-                        c.SingleApiVersion("v1", "SISCOA_API").Description("El proyecto muestra la API del Sistema de Controles administrativos SISCOA").Contact(x => x.Name("UCR"));
+                        c.SingleApiVersion("v1", "DDD Ingenieria").Description("N-Capas Arquitectura Orientada Al Dominio").Contact(x => x.Name("Mario Quiros - Isabel Portuguez"));
 
                         // If you want the output Swagger docs to be indented properly, enable the "PrettyPrint" option.
                         //

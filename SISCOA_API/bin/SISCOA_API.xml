@@ -970,6 +970,16 @@
             <response code="200">OK. Devuelve la lista de los registros</response>
             <response code="404">NotFound. No se encontro el registro</response>
         </member>
+        <member name="M:DDD.Controllers.UsuarioController.GetOldestPerson">
+            <summary>
+            Obtiene la persona de mayor edad
+            </summary>
+            <remark>
+            </remark>
+            <returns>Registro</returns>
+            <response code="200">OK. Devuelve el registro</response>
+            <response code="404">NotFound. No se encontro el registro</response>
+        </member>
         <member name="M:DDD.Controllers.UsuarioController.Post(Application.DTOs.Person_DTO)">
             <summary>
             Crea un registro

@@ -141,9 +141,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Entities\Domain.csproj">
+    <ProjectReference Include="..\Entities\3.Domain.csproj">
       <Project>{9DEA2505-19D8-45D0-AFCE-68C2C188B75C}</Project>
-      <Name>Domain</Name>
+      <Name>3.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

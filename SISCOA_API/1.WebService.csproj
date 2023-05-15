@@ -392,13 +392,13 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Business\Application.csproj">
+    <ProjectReference Include="..\Business\2.Application.csproj">
       <Project>{c85eb1fe-fdde-482a-9a1c-207147c8a6e5}</Project>
-      <Name>Application</Name>
+      <Name>2.Application</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Entities\Domain.csproj">
+    <ProjectReference Include="..\Entities\3.Domain.csproj">
       <Project>{9dea2505-19d8-45d0-afce-68c2c188b75c}</Project>
-      <Name>Domain</Name>
+      <Name>3.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
@@ -419,7 +419,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>62095</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>https://localhost:44353/</IISUrl>
+          <IISUrl>https://localhost:44353/swagger/ui/index#/Usuario</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

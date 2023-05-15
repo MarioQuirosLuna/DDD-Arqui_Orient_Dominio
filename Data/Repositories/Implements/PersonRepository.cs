@@ -1,10 +1,7 @@
 ﻿using Data.Data;
 using Entities.Models;
-using System;
-using System.Collections.Generic;
 using System.Data.Entity;
-using System.Security.Cryptography;
-using System.Text;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Repositories.Repositories.Implements
@@ -16,5 +13,12 @@ namespace Repositories.Repositories.Implements
         {
             this.siscoa_context = siscoa_contex;
         }
+
+        public async Task<Person> GetOldestPerson()
+        {
+            var oldestPerson = await siscoa_context.Persons.OrderByDescending(p => p.Age).FirstOrDefaultAsync();
+            return oldestPerson;
+        }
+
     }
 }

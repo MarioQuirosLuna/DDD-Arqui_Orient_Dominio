@@ -5,5 +5,6 @@ namespace Services.Services
 {
     public interface IPersonService : IGenericService<Person>
     {
+        Task<Person> GetOldestPerson();
     }
 }

@@ -78,6 +78,35 @@ namespace DDD.Controllers
             }
         }
         /// <summary>
+        /// Obtiene la persona de mayor edad
+        /// </summary>
+        /// <remark>
+        /// </remark>
+        /// <returns>Registro</returns>
+        /// <response code="200">OK. Devuelve el registro</response>
+        /// <response code="404">NotFound. No se encontro el registro</response>
+        [Route("api/person/GetOldestPerson")]
+        [HttpGet]
+        [ResponseType(typeof(Person_DTO))]
+        public async Task<IHttpActionResult> GetOldestPerson()
+        {
+            try
+            {
+                var oldestPerson = await service.GetOldestPerson();
+                if (oldestPerson == null)
+                    return NotFound();
+
+                var DTO = _mapper.Map<Person_DTO>(oldestPerson);
+
+                return Ok(DTO);
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
+        }
+
+        /// <summary>
         /// Crea un registro
         /// </summary>
         /// <param name="DTO">El objeto JSON del registro</param>
